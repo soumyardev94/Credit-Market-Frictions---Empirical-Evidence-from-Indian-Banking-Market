@@ -1,0 +1,96 @@
+# =====================================================
+# Python virtual environment
+# =====================================================
+.venv/
+venv/
+ENV/
+env/
+pyvenv.cfg
+
+# =====================================================
+# Python cache / compiled files
+# =====================================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =====================================================
+# Jupyter / interactive artifacts (if added later)
+# =====================================================
+.ipynb_checkpoints/
+*.ipynb
+
+# =====================================================
+# OS / Editor-specific files
+# =====================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# =====================================================
+# Logs & temporary files
+# =====================================================
+*.log
+*.tmp
+*.swp
+*.bak
+
+# =====================================================
+# Raw / source data (do NOT publish)
+# =====================================================
+data/source_clean/
+
+# =====================================================
+# Intermediate / validation artifacts
+# (keep final_panel.csv if you decide to track it)
+# =====================================================
+outputs/processed/data_validation_summary.csv
+
+# =====================================================
+# Reports (generated text + scratch notes)
+# =====================================================
+reports/eda_notes.md
+
+# =====================================================
+# Figures & tables
+# -----------------------------------------------------
+# Keep final figures and tables by default.
+# If you later want to ignore regenerated outputs,
+# uncomment the lines below.
+#
+# reports/figures/
+# reports/tables/
+# =====================================================
+
+# =====================================================
+# Secrets / environment configs
+# =====================================================
+.env
+.env.*
+config.local.yaml
+config.local.yml
+
+# =====================================================
+# Thesis / private research protection
+# =====================================================
+*thesis*
+*dissertation*
+*final_report*
+*.pdf
+
+# =====================================================
+# Archives / large files
+# =====================================================
+*.zip
+*.tar
+*.gz
+*.7z
+
+# =====================================================
+# Build / cache artifacts
+# =====================================================
+.cache/
+.build/
+dist/

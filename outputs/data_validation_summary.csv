@@ -1,0 +1,4 @@
+dataset,status,path,n_sheets,first_sheet,first_sheet_rows,first_sheet_cols
+Business Cycle Link,OK,D:\PROJECTS\Credit Frictions\data\source_clean\India_GDP_Credit.xlsx,1,Sheet1,75,7
+Leverage Analysis,OK,D:\PROJECTS\Credit Frictions\data\source_clean\LeverageData.xlsx,1,Data,34,15
+Balance Sheet Analysis,OK,D:\PROJECTS\Credit Frictions\data\source_clean\CapitalAdequacy_Analysis.xlsx,1,Sheet1,23,28
